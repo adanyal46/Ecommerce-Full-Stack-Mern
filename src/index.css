@@ -1,13 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Onest:wght@400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Onest', sans-serif !important;
+}
+img{
+    object-fit: cover !important;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #f5f5f5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.text-lila {
+    font-family: 'Lilita One', cursive !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.l-2 {
+    letter-spacing: 2px;
+}
+
+.custom__divider {
+    height: 1.9em;
+    border-inline-start: 2px solid #ccc;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.my-0 {
+    margin-block: 0 !important;
+}
+
+.fs-15 {
+    font-size: 15px !important;
+}
+
+.fs-16 {
+    font-size: 16px !important;
+}
+
+.icon {
+    font-size: 24px;
+    color: white;
+}
+
+.custom__drawer .ant-drawer-header, .ant-drawer-body {
+
+    background: #001529;
+    border-bottom: 1px solid #eee;
+}
+
+.custom__drawer .ant-drawer-title, .ant-drawer-close {
+    color: white !important;
+}
+
+.ant-btn, .ant-input, .ant-input-lg, .ant-input-affix-wrapper {
+    border-radius: 3px !important;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding-inline: 20px;
+    margin-inline: auto;
+}
+
+.py-40 {
+    padding-block: 40px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.pb-20 {
+    margin-bottom: 20px;
+}
+
+.ant-card-actions > li {
+    margin: 0px !important;
+}
+
+.ant-card {
+    overflow: hidden !important;
+    border-radius: 3px !important;
+}
+
+.custom__card {
+    background: linear-gradient(45deg, #333333, #000000);
+    border-radius: 0px !important;
+    border: 0 !important;
+}
+.text-center{
+    text-align: center !important;
+}
+.mt-2{
+    margin-top: 0.5rem;
+}
+.text-right{
+    text-align: right ;
 }
